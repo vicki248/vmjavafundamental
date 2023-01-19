@@ -8,5 +8,10 @@ Created on 14/01/2023 19:21
 Version 1.1
 */
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Test {
+    public static void main(String[] args) {
+    }
 }
