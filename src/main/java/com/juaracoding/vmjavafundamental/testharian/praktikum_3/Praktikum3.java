@@ -21,11 +21,9 @@ public class Praktikum3 {
             String input = scanner.nextLine();
             try {
                 int detik = Integer.parseInt(input);
-                int jam = detik / 3600;
-                int sisaDetik = detik % 3600;
-                int menit = sisaDetik / 60;
-                sisaDetik = sisaDetik % 60;
-                System.out.println(detik + " detik sama dengan " + jam + " jam " + menit + " menit " + sisaDetik + " detik");
+                int menit = detik / 60;
+                int sisaDetik = detik % 60;
+                System.out.println(detik + " detik sama dengan " + menit + " menit " + sisaDetik + " detik");
                 break;
             } catch (NumberFormatException e) {
                 System.out.println("Masukkan hanya bisa di isi dengan angka!!!");
